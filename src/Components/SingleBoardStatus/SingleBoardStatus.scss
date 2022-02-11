@@ -1,0 +1,38 @@
+.singleBoardStatus{
+    width: 20rem;
+    background-color: #f4f5f7;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+.status{
+    text-transform: uppercase;
+}
+.bottomTicketInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 5rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem;
+}
+
+.bottomRightTicketInfo, .bottomLeftTicketInfo{
+    display: flex;
+    align-items: center;
+}
+
+.ticketImage{
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 0.5rem; 
+}
