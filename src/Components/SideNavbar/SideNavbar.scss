@@ -1,0 +1,24 @@
+.projectImage{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 0.1rem
+}
+
+.projectHeading{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.projectTextInfo{
+    padding: 0 1rem;
+}
+.sideNavbar{
+    display: flex;
+    flex-direction: column;
+    min-width: 14.375rem;
+    background: rgb(244, 245, 247);
+    padding: 1rem;
+    box-sizing: border-box;
+}

@@ -1,11 +1,13 @@
 .singleBoardStatus{
-    width: 20rem;
+    width: 16rem;
     background-color: #f4f5f7;
     min-height: 100vh;
-    padding: 2rem 1rem;
+    padding: 1rem 0.1rem;
+    margin: 1rem 1rem 1rem 0;
 }
 .status{
     text-transform: uppercase;
+    padding-left: 1rem;
 }
 .bottomTicketInfo{
     display: flex;
@@ -26,6 +28,7 @@
 
 .bottomRightTicketInfo, .bottomLeftTicketInfo{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 

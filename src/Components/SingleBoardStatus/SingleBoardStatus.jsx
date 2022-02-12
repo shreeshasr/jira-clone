@@ -10,13 +10,12 @@ const SingleBoardStatus = ({status, tickets}) => {
         {
             tickets.map( (ticket) => {
                 return(
-                    <div className='ticket'>
+                    <div className='ticket' key={'d' + ticket.id}>
                         <div className="ticketSummary">{ticket.shortSummary}</div>
                         <div className="bottomTicketInfo">
                             <div className="bottomLeftTicketInfo">
-                                <IssuetypeIcon issueType={ticket.issueType}/>
-                                <PriorityIcon priority={ticket.issuePriority}/>
-                                <div className="ticketPoints">{ticket.points}</div>
+                                <IssuetypeIcon issueType={ticket.issueType} key={'i' + ticket.id}/>
+                                <PriorityIcon priority={ticket.issuePriority} key={'p' + ticket.id}/>
                             </div>
                             <div className="bottomRightTicketInfo">
                                 <img className="ticketImage" src={trump} alt="user"/>

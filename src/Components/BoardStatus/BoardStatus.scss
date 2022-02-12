@@ -1,4 +1,72 @@
+.actionButton{
+    background: none;
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    color: #5E6C84;
+}
+
 .statusBoards{
     display: flex;
     justify-content: space-evenly;
+}
+
+.boardActions{
+    display: flex;
+    align-items: center;
+}
+
+.inputSearch{
+    width: 13rem;
+    border-radius: 3px;
+    border: 1px solid rgb(223, 225, 230);
+    background: rgb(244, 245, 247);
+    display: flex;
+    align-items: center;  
+}
+
+.inputSearch input{
+    flex: 6;
+    padding:0.5rem;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.inputSearch .fa-search{
+    flex: 1;
+    font-weight: normal;
+    object-fit: cover;
+}
+
+.participants{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1rem;
+}
+.userImage{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -0.3rem !important;
+}
+
+.userImage:hover{
+    animation-name: userImageAnimation;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+@keyframes userImageAnimation{
+    from{transform: translateY(0px)}
+    to{transform: translateY(-5px)}
+}
+
+.onlyMyIssues, .recentlyUpdated{
+    @extend .actionButton
 }

@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
     tickets: [
         {
-            id: "1",
+            id: "NZT-1",
             issueType: "Task",
             issuePriority: "Major",
             shortSummary: "What is Jira clone application?",
@@ -17,9 +17,9 @@ const initialState = {
             comments: []
         },
         {
-            id: "2",
-            issueType: "Task",
-            issuePriority: "Major",
+            id: "NZT-2",
+            issueType: "Bug",
+            issuePriority: "Blocker",
             shortSummary: "What is Jira clone application?",
             description: "This is a cool Jira-clone app written in React",
             reporter: "Shreesha SR",
@@ -31,9 +31,9 @@ const initialState = {
             comments: []
         },
         {
-            id: "3",
-            issueType: "Task",
-            issuePriority: "Major",
+            id: "NZT-3",
+            issueType: "Epic",
+            issuePriority: "Medium",
             shortSummary: "What is Jira clone application?",
             description: "This is a cool Jira-clone app written in React",
             reporter: "Shreesha SR",
@@ -45,9 +45,9 @@ const initialState = {
             comments: []
         },
         {
-            id: "3",
-            issueType: "Task",
-            issuePriority: "Major",
+            id: "NZT-4",
+            issueType: "Story",
+            issuePriority: "Highest",
             shortSummary: "What is Jira clone application?",
             description: "This is a cool Jira-clone app written in React",
             reporter: "Shreesha SR",
@@ -59,9 +59,9 @@ const initialState = {
             comments: []
         },
         {
-            id: "1",
+            id: "NZT-5",
             issueType: "Task",
-            issuePriority: "Major",
+            issuePriority: "High",
             shortSummary: "What is Jira clone application?",
             description: "This is a cool Jira-clone app written in React",
             reporter: "Shreesha SR",
@@ -73,9 +73,9 @@ const initialState = {
             comments: []
         },
         {
-            id: "2",
-            issueType: "Task",
-            issuePriority: "Major",
+            id: "NZT-6",
+            issueType: "Story",
+            issuePriority: "Lowest",
             shortSummary: "What is Jira clone application?",
             description: "This is a cool Jira-clone app written in React",
             reporter: "Shreesha SR",
@@ -87,9 +87,9 @@ const initialState = {
             comments: []
         },
         {
-            id: "3",
-            issueType: "Task",
-            issuePriority: "Major",
+            id: "NZT-7",
+            issueType: "Epic",
+            issuePriority: "Medium",
             shortSummary: "What is Jira clone application?",
             description: "This is a cool Jira-clone app written in React",
             reporter: "Shreesha SR",
@@ -101,9 +101,9 @@ const initialState = {
             comments: []
         },
         {
-            id: "3",
-            issueType: "Task",
-            issuePriority: "Major",
+            id: "NZT-8",
+            issueType: "Bug",
+            issuePriority: "Lowest",
             shortSummary: "What is Jira clone application?",
             description: "This is a cool Jira-clone app written in React",
             reporter: "Shreesha SR",
